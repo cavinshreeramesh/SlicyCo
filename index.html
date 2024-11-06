@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">   
+</head>
+<body>
+    <!-- progress bar -->
+    <section class="scroll" id="scroll">
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </section>
+
+    <!-- nav-bar  -->
+    <header class="navbar">
+    <div class="logo">
+        <img src="assets/logo.png">
+        <a>SlicyCo</a>
+    </div>
+
+    <div class="navbar-links">
+        <div class="leftnav">
+            <a class="navlink" href="#home">Home</a>
+            <a class="navlink" href="#products">Products</a>
+            <a class="navlink" href="#reviews">Reviews</a>
+            <a class="navlink" href="#contact">Contact</a>
+             <i class="navlink" class="fa-solid fa-bars"></i> 
+        </div>
+
+        <div class="rightnav">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p id="count">0</p>
+        </div>
+    </div>
+    </header>
+
+    <!-- cart -->
+    <div id="cart-container">
+        <i class="fa fa-times close-cart"></i>
+        <div id="cart-items">
+            <!-- <h3>Your Cart</h3>
+            <img src="assets/sad.png">
+            <h2>Your cart is empty!</h2>
+            <div>Your cart is feeling as empty as a cake stand after a birthday party!</div>
+            <div>🍰 Time to sweeten it up!</div> -->
+        </div>
+    </div>
+
+    <!-- home -->
+    <section class="home" id="home" >
+        <div class="left">
+            <h1>Slice into Happiness!</h1>
+            <h4>At SlicyCo, we believe every celebration deserves a delicious cake. 
+                Founded with a passion for baking, we specialize in creating unique and mouthwatering 
+                cakes for any occasion—from birthdays to weddings. Our talented bakers use only the finest ingredients, 
+                ensuring each cake is a delightful experience for your taste buds. With a variety of flavors and designs, 
+                SlicyCo is your go-to destination for cakes that not only look great but taste incredible. 
+                Join us in celebrating life’s sweetest moments!
+            </h4>
+        </div>
+
+        <div class="right">
+            <img src="assets/homecakes.png">
+        </div>
+    </section>
+
+    <!-- Products  -->
+    <section class="products" id="products">
+        <h1>Products</h1>
+        <div id="filters">
+            <button id="all">All</button>
+            <button id="chocolate">Chocolate</button>
+            <button id="vanilla">Vanilla</button>
+            <button id="strawberry">Strawberry</button>
+            <button id="special">Special</button>
+            <button id="festive">Festive</button>
+        </div>
+
+        <div id="product-container">
+       
+        </div>
+    </section>
+
+    <section class="scroll" id="scroll">
+        <div class="progress-container">
+            <div class="progress-bar" id="progress-bar"></div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="contact-form">
+            <h1>Contact Us</h1>
+            <form action="/submit_form" method="post">
+                <div id="input-container">
+                    <div class="side-by-side">
+                        <input type="text" id="fname" name="fname" required placeholder="First Name">
+                        <input type="text" id="lname" name="lname" required placeholder="Last Name">
+                    </div>
+
+                    <div class="side-by-side">
+                        <input type="email" id="email" name="email" required placeholder="Email">
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Phone">
+                    </div>
+
+                    <textarea id="message" name="message" rows="4" required placeholder="Message"></textarea>
+                    <div class="button-container">
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <!-- FAQ -->
+    <section class="FAQ" id="FAQ">
+        <h1>FAQ</h1>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="question">
+                            <div>How fresh are your products?</div>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <div class="answer">All our desserts are baked in close proximity to their delivery dates to ensure optimum freshness!</div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="question">
+                            <div>How long does shipping take?</div>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <div class="answer">Shipping typically takes 5-7 business days for domestic orders and 10-15 days for international orders.</div>
+                    </div>
+
+                    <div class="faq-item">
+                        <div class="question">
+                            <div>Do you offer customer support?</div>
+                            <i class="fa-solid fa-arrow-down"></i>
+                        </div>
+                        <div class="answer">Yes, we offer 24/7 customer support. Feel free to contact us via email or phone at any time.</div>
+                    </div>
+                </div>
+    </section>
+
+        <div class="bottom-links">
+            <div class="column">
+                <h4>Useful Links</h4>
+                <p><a href="#home">Home</a></p>
+                <p><a href="#products">Product</a></p>
+                <p><a href="#reviews">Reviews</a></p>
+                <p><a href="#contact">Contact Us</a></p>
+                <p><a href="#FAQ">FAQ</a></p>
+            </div>
+            <div class="column">
+                <h4>Opening Hours</h4>
+                <p>Mon-Sat: 9.00 AM to 9.00 PM</p>
+                <p>Sunday: 11.00 AM to 3.00 PM</p>
+
+                <div class="locations">
+                <h4>Locations</h4>
+                <p><a href="https://www.google.com/maps/@12.8168958,80.0381301,15z?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D"><i class="fa-solid fa-location-dot"></i>OMR - Chennai</a></p>
+                <p><a href="https://www.google.com/maps/@12.8168958,80.0381301,15z?entry=ttu&g_ep=EgoyMDI0MTAyOS4wIKXMDSoASAFQAw%3D%3D"><i class="fa-solid fa-location-dot"></i>Church Street - Bangalore</a></p>
+                </div>
+            </div>
+            <div class="column">
+                <h4>Need Help?</h4>
+                <p><a href="tel:+918754504550"><i class="fa-solid fa-phone"></i>+91 8754504550</a></p>
+                <p><a href="tel:+917550093456"><i class="fa-solid fa-phone"></i>+91 7550093456</a></p>
+                <p><a href="mailto:example@example.com"><i class="fa-solid fa-envelope"></i>slicygo@1234567.com</a></p>
+                
+                <div class="locations">
+                <h4>Follow Us</h4>
+                <p><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i>Facebook</a></p>
+                <p><a href="https://www.instagram.com/#"><i class="fa-brands fa-instagram"></i>Instagram</a></p>
+                <p><a href="https://www.linkedin.com/home"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a></p>
+                <p><a href="https://x.com/?lang=en"><i class="fa-brands fa-twitter"></i>Twitter</a></p>
+                <p><a href="https://web.whatsapp.com/"><i class="fa-brands fa-whatsapp"></i>WhatsApp</a></p>
+                </div>
+
+            </div>
+            <div class="column">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter for a weekly slice of news, updates, and exclusive offers!</p>
+                <div class="newsletter-container">
+                    <input type="email" id="newsletter-email" name="newsletter-email" required placeholder="Email">
+                    <button type="submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</html>
+</body>
+<script src="script/script.js"></script>
+<script src="script/scroll.js"></script>
+<script type="module" src="./script/products_database.js"></script>
+<script type="module" src="./script/products.js"></script>
+
+</html>
