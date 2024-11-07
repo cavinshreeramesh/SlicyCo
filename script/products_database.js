@@ -181,7 +181,7 @@ const products_list=[
 
     {
         id:"p021",
-        name: "Christmas Vanilla Sponge Cake",
+        name: "Christmas Sponge Cake",
         type: "Festive",
         price: 50,
         description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
@@ -212,7 +212,7 @@ const products_list=[
         type: "Special",
         price: 35,
         description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
-        image: "assets\cakes\purplepalace.png"
+        image: "assets/cakes/purplepalace.png"
     },
 
     {
