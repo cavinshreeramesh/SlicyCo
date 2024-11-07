@@ -133,6 +133,114 @@ const products_list=[
         description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
         image: "assets/cakes/halloweenHouse.png"
     },
+
+    {
+        id:"p016",
+        name: "Be My Strawberry Cake",
+        type: "Strawberry",
+        price: 30,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/bemystrawberry.png"
+    },
+
+    {
+        id:"p017",
+        name: "Be My Triple Threat",
+        type: "Festive",
+        price: 45,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/bemytriplethreat.png"
+    }, 
+
+    {
+        id:"p018",
+        name: "Birthday Cake Star Edition",
+        type: "Special",
+        price: 30,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/birthdaystaredition.png"
+    },
+
+    {
+        id:"p019",
+        name: "Strawberry Cheesecake",
+        type: "Strawberry",
+        price: 50,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/cheesecake_2218760.png"
+    },
+
+    {
+        id:"p020",
+        name: "Cherry Vanilla Cake",
+        type: "Vanilla",
+        price: 25,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/cherryvanilla.png"
+    },
+
+    {
+        id:"p021",
+        name: "Christmas Vanilla Sponge Cake",
+        type: "Festive",
+        price: 50,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/christmasvanillasponge.png"
+    },
+
+    {
+        id:"p022",
+        name: "Orange You Glad Cake",
+        type: "Special",
+        price: 30,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/orangeyouglad.png"
+    },
+
+    {
+        id:"p023",
+        name: "Peachy Keen Cake",
+        type: "Special",
+        price: 30,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/peachy.png"
+    },
+
+    {
+        id:"p024",
+        name: "Purple Place Cake",
+        type: "Special",
+        price: 35,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets\cakes\purplepalace.png"
+    },
+
+    {
+        id:"p025",
+        name: "Red Velvet Choco Cake",
+        type: "Chocolate",
+        price: 30,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/redvelvetchoco.png"
+    },
+
+    {
+        id:"p026",
+        name: "Strawberry Jam Cake",
+        type: "Strawberry",
+        price: 35,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets/cakes/strawberryJam.png"
+    },
+
+    {
+        id:"p027",
+        name: "Triple Threat Cake",
+        type: "Special",
+        price: 50,
+        description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
+        image: "assets\cakes\triplethreat2.png"
+    },
 ]
 
 export default products_list;
