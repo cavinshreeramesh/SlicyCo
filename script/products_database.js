@@ -239,7 +239,7 @@ const products_list=[
         type: "Special",
         price: 50,
         description:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium",
-        image: "assets\cakes\triplethreat2.png"
+        image: "assets/cakes/triplethreat2.png"
     },
 ]
 
