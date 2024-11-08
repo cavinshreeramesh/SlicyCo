@@ -17,3 +17,21 @@ filterBtn.forEach(btn=>{
         this.classList.add('active');
     })
 })
+
+var swiper = new Swiper(".slide-container", {
+    slidesPerView: 4,
+    spaceBetween: 15,
+    loop: true,
+    centerSlide: 'true',
+    fade: 'true',
+    gragCursor: 'true',
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
