@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cake</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaqueries.css">
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -32,7 +34,7 @@
             <a class="navlink" href="#products">Products</a>
             <a class="navlink" href="#reviews">Reviews</a>
             <a class="navlink" href="#contact">Contact</a>
-             <i class="navlink" class="fa-solid fa-bars"></i> 
+            <i class="navlink" class="fa-solid fa-bars"></i> 
         </div>
 
         <div class="rightnav">
@@ -94,6 +96,94 @@
         <div class="progress-container">
             <div class="progress-bar" id="progress-bar"></div>
         </div>
+    </section>
+
+    <!-- reviews -->
+    <h1>Reviews</h1>
+    <section class="reviews" id="reviews">
+        <div class="slide-container swiper mySwiper">
+                <div class="review-card-wrapper swiper-wrapper">
+                    <div class="review-card swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/reviewers/woman.png" class="card-img">
+                        </div>
+                        <div class="reviewer">Hana Maria</div>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium</p>
+                    </div>
+
+                    <div class="review-card swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/reviewers/boy.png" class="card-img">
+                        </div>
+                        <div class="reviewer">Pranav Arun</div>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium</p>
+                    </div>
+
+                    <div class="review-card swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/reviewers/avatar.png" class="card-img">
+                        </div>
+                        <div class="reviewer">Praneet Kamala</div>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium</p>
+                    </div>
+
+                    <div class="review-card swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/reviewers/girl.png" class="card-img">
+                        </div>
+                        <div class="reviewer">Josna Vadhan</div>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium</p>
+                    </div>
+
+                    <div class="review-card swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/reviewers/young-man.png" class="card-img">
+                        </div>
+                        <div class="reviewer">Cavin Ramesh</div>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium</p>
+                    </div>
+
+                    <div class="review-card swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/reviewers/meghu.png" class="card-img">
+                        </div>
+                        <div class="reviewer">Meghaa Sathish</div>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium</p>
+                    </div>
+
+                    <div class="review-card swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/reviewers/lady.png" class="card-img">
+                        </div>
+                        <div class="reviewer">Joanna Brown</div>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium</p>
+                    </div>
+
+                    <div class="review-card swiper-slide">
+                        <div class="image-content">
+                            <img src="assets/reviewers/kid.png" class="card-img">
+                        </div>
+                        <div class="reviewer">Priya Krishnan</div>
+                        <div class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></div>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium</p>
+                    </div>
+
+                    
+
+                    
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+
     </section>
 
     <!-- Contact -->
@@ -248,6 +338,7 @@
     </section>
 </html>
 </body>
+<script src="script/swiper-bundle.min.js"></script>
 <script src="script/script.js"></script>
 <script src="script/scroll.js"></script>
 <script type="module" src="./script/products_database.js"></script>

@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .sriracha-regular {
     font-family: "Sriracha", cursive;
@@ -315,6 +318,7 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 0 30px;
+    margin-bottom: 100px;
 }
 
 .product-card{
@@ -364,6 +368,62 @@ h1{
     color:white;
 }
 
+/* reviews */
+
+.slide-container{
+    margin-top: 30px;
+    max-width: 1120px;
+    background-color: transparent;
+}
+
+.review-card{
+    text-align: center;
+    border: 1px solid palevioletred;
+    color: wheat;
+    background-color: palevioletred;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 320px;
+    min-height: 350px;
+}
+
+.review-card img{
+    margin-top: 30px;
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.reviewer{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.stars{
+    margin-bottom: 20px;
+    color: #FFDB58;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: #FFDB58 !important; 
+    opacity: 0.8; /* Optional: make them slightly transparent */
+    transition: opacity 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    opacity: 1; /* Full opacity on hover */
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+    opacity: 0.6;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #FF6347;
+    opacity: 1;
+}
 
 /* Contact */
 
